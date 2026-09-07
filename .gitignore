@@ -1,0 +1,13 @@
+# virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded at setup time, not committed:
+#   models/  - MediaPipe model bundles (~13 MB, fetch_models.py)
+#   assets/  - meme GIFs from Giphy, which are other people's content (fetch_gifs.py)
+models/
+assets/
+
+# unrelated local file that happens to live in this folder
+lipread_id_solution.py
