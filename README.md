@@ -177,7 +177,7 @@ flowchart LR
 | `test_gestures.py` | synthetic-landmark regression tests (24 checks) |
 
 <details>
-<summary>🔍 Finding faces — the bundled face detector finds 0 of 3 people, so it isn't used</summary>
+<summary><b>🔍 Finding faces</b> — the bundled face detector finds 0 of 3 people, so it isn't used</summary>
 
 <br>
 
@@ -199,7 +199,7 @@ face). Each crop yields 478 landmarks plus 52 blendshapes.
 </details>
 
 <details>
-<summary>👥 Telling people apart — without identity tracking, two people swap memes</summary>
+<summary><b>👥 Telling people apart</b> — without identity tracking, two people swap memes</summary>
 
 <br>
 
@@ -215,7 +215,7 @@ other's trigger state — whenever the detector happened to reorder its output.
 </details>
 
 <details>
-<summary>🖐 Reading gestures — thresholds in face widths, so distance doesn't matter</summary>
+<summary><b>🖐 Reading gestures</b> — thresholds in face widths, so distance doesn't matter</summary>
 
 <br>
 
@@ -244,7 +244,7 @@ bright red, so a nearly-shut mouth would otherwise score ~1.0. Calibrated on rea
 </details>
 
 <details>
-<summary>🤯 Gestures that look alike — why thumbs-up used to hijack mind-blown</summary>
+<summary><b>🤯 Gestures that look alike</b> — why thumbs-up used to hijack mind-blown</summary>
 
 <br>
 
@@ -262,7 +262,7 @@ rule. Three things stop it:
 </details>
 
 <details>
-<summary>🎯 Not flickering — every gesture is debounced, per person</summary>
+<summary><b>🎯 Not flickering</b> — every gesture is debounced, per person</summary>
 
 <br>
 
@@ -276,7 +276,7 @@ detections.
 </details>
 
 <details>
-<summary>🖼 Drawing the overlay — real alpha blending, and cover-fit sizing</summary>
+<summary><b>🖼 Drawing the overlay</b> — real alpha blending, and cover-fit sizing</summary>
 
 <br>
 
@@ -294,7 +294,7 @@ are cached per 8-pixel width bucket under a 96 MB ceiling.
 </details>
 
 <details>
-<summary>⚡ Speed — threading takes five people from 15 fps to 58 fps</summary>
+<summary><b>⚡ Speed</b> — threading takes five people from 15 fps to 58 fps</summary>
 
 <br>
 
